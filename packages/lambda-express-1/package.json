@@ -1,0 +1,51 @@
+{
+  "name": "lambda-express-1",
+  "version": "1.0.0",
+  "description": "Express server deployment using AWS Lambda.",
+  "license": "",
+  "author": "",
+  "sideEffects": false,
+  "main": "src/module.ts",
+  "scripts": {
+    "build": "ts-node ./scripts/build.ts",
+    "clean": "rm -rf ./dist && rm -rf distLambda",
+    "compile": "tsc --build",
+    "coverage": "jest --collect-coverage --passWithNoTests --config=./jest.config.js",
+    "deploy": "yarn build && template deploy \"$@\"",
+    "deploy-ts": "yarn build && yarn template-ts deploy",
+    "infra": "template infra \"$@\"",
+    "start": "yarn compile && yarn node dist/local.js",
+    "template": "template",
+    "template-ts": "ts-node scripts/template.ts",
+    "test": "yarn test-ci --watch",
+    "test-ci": "TEST_SERVER_PORT=5030 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --config=jest.config.js",
+    "watch": "PORT=3030 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node-dev ./src/local.ts"
+  },
+  "dependencies": {
+    "@goldstack/template-lambda-express": "0.3.97",
+    "aws-serverless-express": "^3.3.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@jest-mock/express": "^1.1.7",
+    "@types/aws-serverless-express": "^3.3.3",
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.0",
+    "@types/source-map-support": "^0.5.4",
+    "@yarnpkg/esbuild-plugin-pnp": "^2.0.0-rc.1",
+    "esbuild": "^0.14.5",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.4",
+    "source-map-loader": "^1.0.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^10.3.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}

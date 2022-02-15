@@ -1,0 +1,8 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "app-nextjs-1",
+  "template": "app-nextjs",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": []
+}

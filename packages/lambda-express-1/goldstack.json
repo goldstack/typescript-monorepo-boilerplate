@@ -1,0 +1,8 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "lambda-express-1",
+  "template": "lambda-express",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": []
+}

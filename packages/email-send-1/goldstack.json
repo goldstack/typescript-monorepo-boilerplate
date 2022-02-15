@@ -1,0 +1,8 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "email-send-1",
+  "template": "email-send",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": []
+}
