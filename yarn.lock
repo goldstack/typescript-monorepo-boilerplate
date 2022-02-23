@@ -515,9 +515,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.90":
-  version: 0.3.90
-  resolution: "@goldstack/template-email-send@npm:0.3.90"
+"@goldstack/template-email-send@npm:0.3.91":
+  version: 0.3.91
+  resolution: "@goldstack/template-email-send@npm:0.3.91"
   dependencies:
     "@goldstack/infra": 0.3.28
     "@goldstack/infra-aws": 0.3.36
@@ -528,7 +528,7 @@ __metadata:
     "@goldstack/utils-package": 0.3.30
     "@goldstack/utils-package-config": 0.3.30
     "@goldstack/utils-sh": 0.4.24
-    "@goldstack/utils-template": 0.3.26
+    "@goldstack/utils-template": 0.3.27
     "@goldstack/utils-terraform": 0.3.58
     "@goldstack/utils-terraform-aws": 0.3.57
     aws-sdk: 2.1001.0
@@ -538,13 +538,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: b8343e0f9d81f4b9c81a6ad02a033b73f5a300f679646a29d04237fab65ac358055e59448fe97ef87c5fcad3d2e370cea448559e8e1c20bd4fb0695007458afa
+  checksum: e8c1165520ba94bde7f389b990c01b5d0cc931c3fbe1cf8058c400b0f9e66ca616471eb298af0151148f410c609842c1c79b87250a1469a6902fe8334fb4714e
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-express@npm:0.3.100":
-  version: 0.3.100
-  resolution: "@goldstack/template-lambda-express@npm:0.3.100"
+"@goldstack/template-lambda-express@npm:0.3.101":
+  version: 0.3.101
+  resolution: "@goldstack/template-lambda-express@npm:0.3.101"
   dependencies:
     "@goldstack/infra": 0.3.28
     "@goldstack/infra-aws": 0.3.36
@@ -557,7 +557,7 @@ __metadata:
     "@goldstack/utils-package-config": 0.3.30
     "@goldstack/utils-s3-deployment": 0.3.47
     "@goldstack/utils-sh": 0.4.24
-    "@goldstack/utils-template": 0.3.26
+    "@goldstack/utils-template": 0.3.27
     "@goldstack/utils-terraform": 0.3.58
     "@goldstack/utils-terraform-aws": 0.3.57
     archiver: ^5.0.0
@@ -566,17 +566,17 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-express: ./bin/template
-  checksum: 5de8c490a8606e7728619fc0dc0b376495875e9d85da6a3deeef9ebf7b339943c950f66cccb0b8dd1956c33c4f86ac43d5d7e714658a5d6ae10fe9bbbc219b9e
+  checksum: 456f255aa96763abd09805fc6d3183ce9f95f38682ac05532a2bd31175fd78e3a3e892c99f18da4de9dfa06eae40f235fee7ab37a64c1d349346cda79f471c6c
   languageName: node
   linkType: hard
 
-"@goldstack/template-nextjs@npm:0.3.96":
-  version: 0.3.96
-  resolution: "@goldstack/template-nextjs@npm:0.3.96"
+"@goldstack/template-nextjs@npm:0.3.97":
+  version: 0.3.97
+  resolution: "@goldstack/template-nextjs@npm:0.3.97"
   dependencies:
     "@goldstack/infra": 0.3.28
     "@goldstack/infra-aws": 0.3.36
-    "@goldstack/template-static-website-aws": 0.3.87
+    "@goldstack/template-static-website-aws": 0.3.88
     "@goldstack/utils-aws-cli": 0.3.46
     "@goldstack/utils-aws-lambda": 0.1.18
     "@goldstack/utils-cli": 0.2.9
@@ -585,7 +585,7 @@ __metadata:
     "@goldstack/utils-package": 0.3.30
     "@goldstack/utils-package-config": 0.3.30
     "@goldstack/utils-sh": 0.4.24
-    "@goldstack/utils-template": 0.3.26
+    "@goldstack/utils-template": 0.3.27
     "@goldstack/utils-terraform": 0.3.58
     glob: ^7.1.6
     source-map-support: ^0.5.21
@@ -594,13 +594,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-nextjs: ./bin/template
-  checksum: 00a66dbd17f7c348d0cc2ed9ad216ff60afe568c31787f6aa3ef27d1c52d993684d80f667354b7bfb9cda355919a360932d580b5d91a8c225684596d05c73aa7
+  checksum: 4a61dcec5a47c53bcf10461ed0c6db49018ff5375c28dc67c1f2a80aa1265dee594e10d3aac50951ff4e9f953cbd450e8f13ca847aa95acc090b592494a43399
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.3.86":
-  version: 0.3.86
-  resolution: "@goldstack/template-s3@npm:0.3.86"
+"@goldstack/template-s3@npm:0.3.87":
+  version: 0.3.87
+  resolution: "@goldstack/template-s3@npm:0.3.87"
   dependencies:
     "@goldstack/infra": 0.3.28
     "@goldstack/infra-aws": 0.3.36
@@ -612,7 +612,7 @@ __metadata:
     "@goldstack/utils-package-config": 0.3.30
     "@goldstack/utils-s3-deployment": 0.3.47
     "@goldstack/utils-sh": 0.4.24
-    "@goldstack/utils-template": 0.3.26
+    "@goldstack/utils-template": 0.3.27
     "@goldstack/utils-terraform": 0.3.58
     "@goldstack/utils-terraform-aws": 0.3.57
     aws-sdk: 2.1001.0
@@ -622,13 +622,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: d81ef4fb9d65d2dc069da446a01b6423aa7ed4f2d4d8edc4a19ba39d26a4ab0950d47da12378609566d77a8882dbc75a05733311ed45f10266a3f6864a536fd5
+  checksum: 57e4dd793a3a01cfcbdf4aaef6cc718531a4499bc8630f81bf3441e3e0aac006aa35d417542e449d23e03f10308ee7ae16148d7442e02a6688d2ffd830f6da00
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.3.87":
-  version: 0.3.87
-  resolution: "@goldstack/template-static-website-aws@npm:0.3.87"
+"@goldstack/template-static-website-aws@npm:0.3.88":
+  version: 0.3.88
+  resolution: "@goldstack/template-static-website-aws@npm:0.3.88"
   dependencies:
     "@goldstack/infra": 0.3.28
     "@goldstack/infra-aws": 0.3.36
@@ -640,7 +640,7 @@ __metadata:
     "@goldstack/utils-package-config": 0.3.30
     "@goldstack/utils-s3-deployment": 0.3.47
     "@goldstack/utils-sh": 0.4.24
-    "@goldstack/utils-template": 0.3.26
+    "@goldstack/utils-template": 0.3.27
     "@goldstack/utils-terraform": 0.3.58
     "@goldstack/utils-terraform-aws": 0.3.57
     source-map-support: ^0.5.21
@@ -648,7 +648,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 4b9aecc1d541dbf918a630dff42d1286ec4d4449bd1c9700f61935bbf6a8daf66d80ab1436f4e0cd3dc36ebce14f82542584d6a2f232b5acc40adf6cccbcc7c9
+  checksum: e42c2fed9595991076431069faaf277834611b10d93306f5eba1ae6ab740db5ef58b028c9b8deb6c766ade8e501ac51371bfbce0c29399e29da5ecfb230edc85
   languageName: node
   linkType: hard
 
@@ -843,13 +843,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-template@npm:0.3.26":
-  version: 0.3.26
-  resolution: "@goldstack/utils-template@npm:0.3.26"
+"@goldstack/utils-template@npm:0.3.27":
+  version: 0.3.27
+  resolution: "@goldstack/utils-template@npm:0.3.27"
   dependencies:
     "@goldstack/utils-config": 0.3.25
     "@goldstack/utils-sh": 0.4.24
-  checksum: 8c643fbf7361716676714b50c0b9d83f020c21f04a13b3e483c3dbea00072a641870112f1f5a35739ad03d8bf8143c09b06f3a71fbef2fe771f3fbbc7f9ca309
+  checksum: b10ea716d55f8b7889ce69731509bfbd9f3e97f436da3626ebac5023fb70f66bc32639814104370364ec27c2510aaf1315c7dd38146682d96d8a2cc04f552ea4
   languageName: node
   linkType: hard
 
@@ -2674,7 +2674,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-1@workspace:packages/app-nextjs-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.96
+    "@goldstack/template-nextjs": 0.3.97
     "@goldstack/utils-sh": 0.4.24
     "@testing-library/jest-dom": ^5.9.0
     "@testing-library/react": ^10.0.4
@@ -2710,7 +2710,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app-nextjs-bootstrap-1@workspace:packages/app-nextjs-bootstrap-1"
   dependencies:
-    "@goldstack/template-nextjs": 0.3.96
+    "@goldstack/template-nextjs": 0.3.97
     "@goldstack/utils-sh": 0.4.24
     "@testing-library/jest-dom": ^5.9.0
     "@testing-library/react": ^10.0.4
@@ -5482,7 +5482,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.90
+    "@goldstack/template-email-send": 0.3.91
     "@goldstack/utils-git": 0.1.30
     "@goldstack/utils-sh": 0.4.24
     "@types/jest": ^27.0.2
@@ -9958,7 +9958,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "lambda-express-1@workspace:packages/lambda-express-1"
   dependencies:
-    "@goldstack/template-lambda-express": 0.3.100
+    "@goldstack/template-lambda-express": 0.3.101
     "@jest-mock/express": ^1.1.7
     "@types/aws-serverless-express": ^3.3.3
     "@types/express": ^4.17.13
@@ -13510,7 +13510,7 @@ resolve@^1.18.1:
   version: 0.0.0-use.local
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
-    "@goldstack/template-s3": 0.3.86
+    "@goldstack/template-s3": 0.3.87
     "@goldstack/utils-git": 0.1.30
     "@goldstack/utils-sh": 0.4.24
     "@types/jest": ^27.0.2
@@ -14324,7 +14324,7 @@ resolve@^1.18.1:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": 0.3.87
+    "@goldstack/template-static-website-aws": 0.3.88
     "@types/gulp": ^4.0.7
     "@types/gulp-changed": ^0.0.33
     "@types/gulp-replace": ^0.0.31
