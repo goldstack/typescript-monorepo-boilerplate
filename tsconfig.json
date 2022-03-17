@@ -30,28 +30,22 @@
   "include": [],
   "references": [
     {
-      "path": "packages/app-nextjs-1",
-      "name": "app-nextjs-1"
+      "path": "packages/app-nextjs-1"
     },
     {
-      "path": "packages/app-nextjs-bootstrap-1",
-      "name": "app-nextjs-bootstrap-1"
+      "path": "packages/app-nextjs-bootstrap-1"
     },
     {
-      "path": "packages/email-send-1",
-      "name": "email-send-1"
+      "path": "packages/email-send-1"
     },
     {
-      "path": "packages/lambda-express-1",
-      "name": "lambda-express-1"
+      "path": "packages/lambda-express-1"
     },
     {
-      "path": "packages/s3-1",
-      "name": "s3-1"
+      "path": "packages/s3-1"
     },
     {
-      "path": "packages/static-website-1",
-      "name": "static-website-1"
+      "path": "packages/static-website-1"
     }
   ]
 }
