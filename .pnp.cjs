@@ -3365,17 +3365,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@yarnpkg/esbuild-plugin-pnp", [
-        ["npm:2.0.1", {
-          "packageLocation": "./.yarn/cache/@yarnpkg-esbuild-plugin-pnp-npm-2.0.1-34723f0522-ff081f65e0.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
+        ["npm:3.0.0-rc.1", {
+          "packageLocation": "./.yarn/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.1-ccbacefbfa-48d4281d9e.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
           "packageDependencies": [
-            ["@yarnpkg/esbuild-plugin-pnp", "npm:2.0.1"]
+            ["@yarnpkg/esbuild-plugin-pnp", "npm:3.0.0-rc.1"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:2.0.1", {
-          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-1d33f1ec20/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-2.0.1-34723f0522-ff081f65e0.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
+        ["virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:3.0.0-rc.1", {
+          "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-3b2da4150a/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.1-ccbacefbfa-48d4281d9e.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
           "packageDependencies": [
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:2.0.1"],
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:3.0.0-rc.1"],
             ["@types/esbuild", null],
             ["esbuild", "npm:0.14.34"],
             ["tslib", "npm:1.14.1"]
@@ -11664,7 +11664,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.4.1"],
             ["@types/node", "npm:16.11.0"],
             ["@types/source-map-support", "npm:0.5.4"],
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:2.0.1"],
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:094181a559a01687558f84c76c308601e3d396b06ccd67b6316e505fc0a88ad5701ca03714bc9f69c7086cdf3ffac57121f0de74eba06db15b45e36b21634801#npm:3.0.0-rc.1"],
             ["aws-serverless-express", "npm:3.3.8"],
             ["cors", "npm:2.8.5"],
             ["esbuild", "npm:0.14.34"],
