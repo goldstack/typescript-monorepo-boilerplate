@@ -3746,17 +3746,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ansi-regex", [
-        ["npm:2.1.1", {
-          "packageLocation": "./.yarn/cache/ansi-regex-npm-2.1.1-ddd24d102b-190abd03e4.zip/node_modules/ansi-regex/",
+        ["npm:3.0.1", {
+          "packageLocation": "./.yarn/cache/ansi-regex-npm-3.0.1-01f44078a3-09daf180c5.zip/node_modules/ansi-regex/",
           "packageDependencies": [
-            ["ansi-regex", "npm:2.1.1"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:3.0.0", {
-          "packageLocation": "./.yarn/cache/ansi-regex-npm-3.0.0-be0b845911-2ad11c416f.zip/node_modules/ansi-regex/",
-          "packageDependencies": [
-            ["ansi-regex", "npm:3.0.0"]
+            ["ansi-regex", "npm:3.0.1"]
           ],
           "linkType": "HARD",
         }],
@@ -5514,7 +5507,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/cli-color-npm-2.0.0-9f10b21e11-1cea606bc6.zip/node_modules/cli-color/",
           "packageDependencies": [
             ["cli-color", "npm:2.0.0"],
-            ["ansi-regex", "npm:2.1.1"],
+            ["ansi-regex", "npm:3.0.1"],
             ["d", "npm:1.0.1"],
             ["es5-ext", "npm:0.10.53"],
             ["es6-iterator", "npm:2.0.3"],
@@ -16787,7 +16780,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-ansi-npm-3.0.1-6aec1365b9-9b974de611.zip/node_modules/strip-ansi/",
           "packageDependencies": [
             ["strip-ansi", "npm:3.0.1"],
-            ["ansi-regex", "npm:2.1.1"]
+            ["ansi-regex", "npm:3.0.1"]
           ],
           "linkType": "HARD",
         }],
@@ -16795,7 +16788,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-ansi-npm-4.0.0-d4de985014-d9186e6c0c.zip/node_modules/strip-ansi/",
           "packageDependencies": [
             ["strip-ansi", "npm:4.0.0"],
-            ["ansi-regex", "npm:3.0.0"]
+            ["ansi-regex", "npm:3.0.1"]
           ],
           "linkType": "HARD",
         }],
