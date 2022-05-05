@@ -66,7 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@goldstack/nodemonx", "npm:0.3.30"],
-            ["@goldstack/utils-typescript-references", "npm:0.1.10"],
+            ["@goldstack/utils-typescript-references", "npm:0.1.11"],
             ["@types/jest", "npm:27.4.1"],
             ["@types/node", "npm:16.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:cb366c47c2f9c0b3521f2a761a7e98e09820846a015aa19b17a2a7b1281e7d9d8abfd1fb2ec4fa80b1f08e154df87bef978db20b67fab2f4591113f3df10ffac#npm:4.14.0"],
@@ -1546,10 +1546,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@goldstack/utils-typescript-references", [
-        ["npm:0.1.10", {
-          "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.1.10-8c80f5e39c-dd871aa8b0.zip/node_modules/@goldstack/utils-typescript-references/",
+        ["npm:0.1.11", {
+          "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.1.11-423a525d57-3d6926c7f0.zip/node_modules/@goldstack/utils-typescript-references/",
           "packageDependencies": [
-            ["@goldstack/utils-typescript-references", "npm:0.1.10"],
+            ["@goldstack/utils-typescript-references", "npm:0.1.11"],
             ["source-map-support", "npm:0.5.21"]
           ],
           "linkType": "HARD",
@@ -14396,7 +14396,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["project-no-infra", "workspace:."],
             ["@goldstack/nodemonx", "npm:0.3.30"],
-            ["@goldstack/utils-typescript-references", "npm:0.1.10"],
+            ["@goldstack/utils-typescript-references", "npm:0.1.11"],
             ["@types/jest", "npm:27.4.1"],
             ["@types/node", "npm:16.11.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:cb366c47c2f9c0b3521f2a761a7e98e09820846a015aa19b17a2a7b1281e7d9d8abfd1fb2ec4fa80b1f08e154df87bef978db20b67fab2f4591113f3df10ffac#npm:4.14.0"],
