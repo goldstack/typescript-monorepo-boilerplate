@@ -1249,10 +1249,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-s3", [\
-        ["npm:0.3.97", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.3.97-1395bca696-478a80b96a.zip/node_modules/@goldstack/template-s3/",\
+        ["npm:0.3.98", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.3.98-58253ffe6c-7be849d781.zip/node_modules/@goldstack/template-s3/",\
           "packageDependencies": [\
-            ["@goldstack/template-s3", "npm:0.3.97"],\
+            ["@goldstack/template-s3", "npm:0.3.98"],\
             ["@goldstack/infra", "npm:0.3.36"],\
             ["@goldstack/infra-aws", "npm:0.3.44"],\
             ["@goldstack/utils-cli", "npm:0.2.13"],\
@@ -15882,7 +15882,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/s3-1/",\
           "packageDependencies": [\
             ["s3-1", "workspace:packages/s3-1"],\
-            ["@goldstack/template-s3", "npm:0.3.97"],\
+            ["@goldstack/template-s3", "npm:0.3.98"],\
             ["@types/jest", "npm:27.5.1"],\
             ["@types/node", "npm:17.0.33"],\
             ["aws-sdk", "npm:2.1055.0"],\
