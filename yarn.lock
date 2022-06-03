@@ -719,9 +719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.105":
-  version: 0.3.105
-  resolution: "@goldstack/template-email-send@npm:0.3.105"
+"@goldstack/template-email-send@npm:0.3.106":
+  version: 0.3.106
+  resolution: "@goldstack/template-email-send@npm:0.3.106"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/infra-aws": 0.3.45
@@ -733,10 +733,7 @@ __metadata:
     "@goldstack/utils-terraform-aws": 0.3.68
     aws-sdk: 2.1055.0
     uuid: ^8.3.0
-  bin:
-    template: ./bin/template
-    template-email-send: ./bin/template
-  checksum: cc46e731c0fb2c775d309adf29c307641105fff14cf733df0117ead23684e6ddce6c680334730dd37dcd5bb43bdc206ecdea3a9748d2735bf9401f8ac19b7d19
+  checksum: c4d97f67952da1049904c3b6d63a3dd859bff2546a8737eaf6079f2615426ffd3cf5d48206ebe57607ddb3a489dbf93dde16b4cd8a0c15eb4d2cf9e4e7a6826a
   languageName: node
   linkType: hard
 
@@ -5868,7 +5865,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.105
+    "@goldstack/template-email-send": 0.3.106
     "@goldstack/utils-git": 0.1.35
     "@goldstack/utils-sh": 0.4.32
     "@types/jest": ^27.5.1

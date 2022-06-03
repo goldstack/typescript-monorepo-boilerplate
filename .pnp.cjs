@@ -1163,10 +1163,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send", [\
-        ["npm:0.3.105", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.105-c89051ff63-cc46e731c0.zip/node_modules/@goldstack/template-email-send/",\
+        ["npm:0.3.106", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-npm-0.3.106-633f672ae4-c4d97f6795.zip/node_modules/@goldstack/template-email-send/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send", "npm:0.3.105"],\
+            ["@goldstack/template-email-send", "npm:0.3.106"],\
             ["@goldstack/infra", "npm:0.3.37"],\
             ["@goldstack/infra-aws", "npm:0.3.45"],\
             ["@goldstack/utils-cli", "npm:0.2.14"],\
@@ -7162,7 +7162,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/email-send-1/",\
           "packageDependencies": [\
             ["email-send-1", "workspace:packages/email-send-1"],\
-            ["@goldstack/template-email-send", "npm:0.3.105"],\
+            ["@goldstack/template-email-send", "npm:0.3.106"],\
             ["@goldstack/utils-git", "npm:0.1.35"],\
             ["@goldstack/utils-sh", "npm:0.4.32"],\
             ["@types/jest", "npm:27.5.1"],\
