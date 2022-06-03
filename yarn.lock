@@ -719,16 +719,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.3.104":
-  version: 0.3.104
-  resolution: "@goldstack/template-email-send@npm:0.3.104"
+"@goldstack/template-email-send@npm:0.3.105":
+  version: 0.3.105
+  resolution: "@goldstack/template-email-send@npm:0.3.105"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/infra-aws": 0.3.45
     "@goldstack/utils-cli": 0.2.14
     "@goldstack/utils-esbuild": 0.4.2
     "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-package-config-embedded": 0.4.2
+    "@goldstack/utils-package-config-embedded": 0.4.3
     "@goldstack/utils-terraform": 0.3.69
     "@goldstack/utils-terraform-aws": 0.3.68
     aws-sdk: 2.1055.0
@@ -736,7 +736,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: ddf1265a120d33218de4b95bdd3114b7e19e6d493bf9bcf8a21497eed3ae9f797ed6e1cf49fce32ea6a13a66abaf85e7bf4ea58c1323ef088917267db409943c
+  checksum: cc46e731c0fb2c775d309adf29c307641105fff14cf733df0117ead23684e6ddce6c680334730dd37dcd5bb43bdc206ecdea3a9748d2735bf9401f8ac19b7d19
   languageName: node
   linkType: hard
 
@@ -796,11 +796,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.4.4":
-  version: 0.4.4
-  resolution: "@goldstack/template-s3-cli@npm:0.4.4"
+"@goldstack/template-s3-cli@npm:0.4.5":
+  version: 0.4.5
+  resolution: "@goldstack/template-s3-cli@npm:0.4.5"
   dependencies:
-    "@goldstack/template-s3": 0.3.100
+    "@goldstack/template-s3": 0.3.101
     "@goldstack/utils-cli": 0.2.14
     "@goldstack/utils-docker": 0.3.39
     "@goldstack/utils-log": 0.2.15
@@ -817,25 +817,25 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 61060e4b2d902b22cc07689217ceeaa7099172dcc9469606084d113e6f4f6cf3dc267f039c99b9d120c2c29026d517133974ba79b601f00d358c85cee2d9988a
+  checksum: e7baed02c262493694031a9b83ddb159cc85aaf0713cd10e88c12e40a70507638c02d10010e4828e73060e9eac859a6f06876cabcc6a91c7f76ea66139a92432
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.3.100":
-  version: 0.3.100
-  resolution: "@goldstack/template-s3@npm:0.3.100"
+"@goldstack/template-s3@npm:0.3.101":
+  version: 0.3.101
+  resolution: "@goldstack/template-s3@npm:0.3.101"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/infra-aws": 0.3.45
     "@goldstack/utils-esbuild": 0.4.2
     "@goldstack/utils-package": 0.3.39
-    "@goldstack/utils-package-config-embedded": 0.4.2
+    "@goldstack/utils-package-config-embedded": 0.4.3
     "@goldstack/utils-template": 0.3.36
     "@goldstack/utils-terraform": 0.3.69
     aws-sdk: 2.1055.0
     mock-aws-s3: ^4.0.2
     source-map-support: ^0.5.21
-  checksum: d354bf873cff0eabff5dfb94621774c46541988a578b5aa576c6c9400ca92d3528e02e8eb618eabcbfdece71853068b4bb5cd5329ffe1e532968378109597be0
+  checksum: 882c9d3967869566ab97cf0a61d2367628de53779bf63ab6e6b6439906d78dec7ce0faf7af1ab2812e87428128741b9af9f431ea9b6ca09875e100833eacab54
   languageName: node
   linkType: hard
 
@@ -996,14 +996,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config-embedded@npm:0.4.2":
-  version: 0.4.2
-  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.2"
+"@goldstack/utils-package-config-embedded@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.4.3"
   dependencies:
     "@goldstack/infra": 0.3.37
     "@goldstack/utils-config": 0.3.34
     "@goldstack/utils-package": 0.3.39
-  checksum: c454c1de3d043f00c77a96246e09b9f359b937d56f2d30c9bfc6c2e8372d1c3d5e84e3347006c6f5b72c49850d9e22f56df90c0ee2627a51b2ee23c5104e0ede
+  checksum: 0fb841d6323031e5650b0d8e301f644c11315e07d399fef77b88c8fb569662247033b0db57a963886a7229bdfa68a3793ae3e26695399f58f6fc5b591a855424
   languageName: node
   linkType: hard
 
@@ -2249,7 +2249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^16.9.46":
+"@types/react@npm:*":
   version: 16.9.49
   resolution: "@types/react@npm:16.9.49"
   dependencies:
@@ -2267,6 +2267,16 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 4ee41e0c8d0e938f501f80ac75a5ee70b5e8cd5968a1f764960bf7b2694fd0d8ca01345f00325617130643b4af6e072bb3ade023dbc2bd2db7e73504b355b8d9
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^16.9.49":
+  version: 16.9.51
+  resolution: "@types/react@npm:16.9.51"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 1c76b6d4281905524ee04bbca1ae7b990c189802ac992b6942bb7fadabccef0ffd4f8d4db2d14704e2904ca14396b16d330b9a76bcc7283c25da1fe017343d9a
   languageName: node
   linkType: hard
 
@@ -3107,7 +3117,7 @@ __metadata:
     "@testing-library/react": ^10.0.4
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
-    "@types/react": ^16.9.46
+    "@types/react": ^16.9.49
     "@types/testing-library__jest-dom": ^5.9.1
     "@types/testing-library__react": ^10.0.1
     concurrently: ^5.2.0
@@ -3145,7 +3155,7 @@ __metadata:
     "@testing-library/react": ^10.0.4
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
-    "@types/react": ^16.9.46
+    "@types/react": ^16.9.49
     "@types/testing-library__jest-dom": ^5.9.1
     "@types/testing-library__react": ^10.0.1
     concurrently: ^5.2.0
@@ -3157,7 +3167,7 @@ __metadata:
     jest-environment-jsdom: ^28.1.0
     jest-transform-stub: ^2.0.0
     next: ^12.1.0
-    next-compose-plugins: ^2.2.0
+    next-compose-plugins: ^2.2.1
     next-optimized-images: ^2.6.2
     next-transpile-modules: ^8.0.0
     node-sass: 7.0.0
@@ -5858,7 +5868,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.3.104
+    "@goldstack/template-email-send": 0.3.105
     "@goldstack/utils-git": 0.1.35
     "@goldstack/utils-sh": 0.4.32
     "@types/jest": ^27.5.1
@@ -11343,13 +11353,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"next-compose-plugins@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "next-compose-plugins@npm:2.2.0"
-  checksum: 33fb13ff385a054bcd563e5d00bdd616a9991743345c6606a665ec44811fb8a7974b91e677a5e360e0aa497abbd73ab86d57ebaeeb7c4f6adeb5dff7c2b580b1
-  languageName: node
-  linkType: hard
-
 "next-compose-plugins@npm:^2.2.1":
   version: 2.2.1
   resolution: "next-compose-plugins@npm:2.2.1"
@@ -13750,8 +13753,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
-    "@goldstack/template-s3": 0.3.100
-    "@goldstack/template-s3-cli": 0.4.4
+    "@goldstack/template-s3": 0.3.101
+    "@goldstack/template-s3-cli": 0.4.5
     "@types/jest": ^27.5.1
     "@types/node": ^17.0.33
     aws-sdk: 2.1055.0
