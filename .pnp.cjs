@@ -1182,16 +1182,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-email-send-cli", [\
-        ["npm:0.4.4", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.4.4-b395d0117a-e261c26a21.zip/node_modules/@goldstack/template-email-send-cli/",\
+        ["npm:0.4.5", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-email-send-cli-npm-0.4.5-e028cda19b-a442c0913b.zip/node_modules/@goldstack/template-email-send-cli/",\
           "packageDependencies": [\
-            ["@goldstack/template-email-send-cli", "npm:0.4.4"],\
+            ["@goldstack/template-email-send-cli", "npm:0.4.5"],\
             ["@goldstack/template-email-send", "npm:0.3.106"],\
             ["@goldstack/utils-cli", "npm:0.2.14"],\
             ["@goldstack/utils-package", "npm:0.3.39"],\
             ["@goldstack/utils-package-config", "npm:0.3.40"],\
             ["@goldstack/utils-terraform", "npm:0.3.69"],\
             ["@goldstack/utils-terraform-aws", "npm:0.3.68"],\
+            ["source-map-support", "npm:0.5.21"],\
             ["yargs", "npm:15.4.1"]\
           ],\
           "linkType": "HARD"\
@@ -7179,7 +7180,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["email-send-1", "workspace:packages/email-send-1"],\
             ["@goldstack/template-email-send", "npm:0.3.106"],\
-            ["@goldstack/template-email-send-cli", "npm:0.4.4"],\
+            ["@goldstack/template-email-send-cli", "npm:0.4.5"],\
             ["@goldstack/utils-git", "npm:0.1.35"],\
             ["@goldstack/utils-sh", "npm:0.4.32"],\
             ["@types/jest", "npm:27.5.1"],\
