@@ -12090,6 +12090,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["lambda-express-1", "workspace:packages/lambda-express-1"],\
             ["@goldstack/template-lambda-express", "npm:0.3.116"],\
+            ["@goldstack/utils-esbuild", "npm:0.4.2"],\
             ["@jest-mock/express", "npm:1.4.5"],\
             ["@types/aws-serverless-express", "npm:3.3.3"],\
             ["@types/express", "npm:4.17.13"],\
