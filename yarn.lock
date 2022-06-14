@@ -719,9 +719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.4.6":
-  version: 0.4.6
-  resolution: "@goldstack/template-email-send-cli@npm:0.4.6"
+"@goldstack/template-email-send-cli@npm:0.4.7":
+  version: 0.4.7
+  resolution: "@goldstack/template-email-send-cli@npm:0.4.7"
   dependencies:
     "@goldstack/template-email-send": 0.3.107
     "@goldstack/utils-cli": 0.2.14
@@ -734,7 +734,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: c38a53376779f108f9190e081575e9c5447a880f291d938c38edf98997e88bbaf3250279889e884d0b2a3e19ec735700309e11308610656750acd792681fc261
+  checksum: 534430fbfb8451be7e26812a738e8e0bfd52581e34a7c938810c38c96f81bbdabf258c2b6e840a02cbedd529b99af4a1f6d07f992773be122a0e672cefdb293a
   languageName: node
   linkType: hard
 
@@ -5895,7 +5895,7 @@ __metadata:
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
     "@goldstack/template-email-send": 0.3.107
-    "@goldstack/template-email-send-cli": 0.4.6
+    "@goldstack/template-email-send-cli": 0.4.7
     "@goldstack/utils-git": 0.1.35
     "@goldstack/utils-sh": 0.4.32
     "@types/jest": ^27.5.1
