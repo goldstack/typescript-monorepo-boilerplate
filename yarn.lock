@@ -726,11 +726,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.5.7":
-  version: 0.5.7
-  resolution: "@goldstack/template-email-send-cli@npm:0.5.7"
+"@goldstack/template-email-send-cli@npm:0.5.8":
+  version: 0.5.8
+  resolution: "@goldstack/template-email-send-cli@npm:0.5.8"
   dependencies:
-    "@goldstack/template-email-send": 0.4.7
+    "@goldstack/template-email-send": 0.4.8
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-package": 0.4.4
     "@goldstack/utils-package-config": 0.4.4
@@ -741,25 +741,25 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: f8fdd08841c049dca41df3cea48becd40baca0179f285ab7367115476f18aac39cdcd9ab6a09ec9c3fd8ce0fb4d21a1596fbc69ef8783108de91bc23c6834a33
+  checksum: c0a91e0ebb729b46137003019cfc7477b94199dbd43dd6f1aad29b13c13bdd8b248193f6735895ac98d43774f5a61c86b25966349ed41b4e5daba3579ca24f7e
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.4.7":
-  version: 0.4.7
-  resolution: "@goldstack/template-email-send@npm:0.4.7"
+"@goldstack/template-email-send@npm:0.4.8":
+  version: 0.4.8
+  resolution: "@goldstack/template-email-send@npm:0.4.8"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-esbuild": 0.5.4
     "@goldstack/utils-package": 0.4.4
-    "@goldstack/utils-package-config-embedded": 0.5.4
+    "@goldstack/utils-package-config-embedded": 0.5.5
     "@goldstack/utils-terraform": 0.4.7
     "@goldstack/utils-terraform-aws": 0.4.7
     aws-sdk: ^2.1222.0
     uuid: ^8.3.0
-  checksum: 34267e82f9813794419b1a688ddd54b83554eecb8989e220ba6017adee0f82d32fe313898a97c8b8af579aca6053e470f7159d4414269522484d207e72416972
+  checksum: 56f91ec50c7d2dfe28633f4b67db327f23b779b07196a4c472502418d5a049a6d7eb66909453cc078c9d3a0d6664b5404f6242fd6f9c513ec4e4c26fd4644035
   languageName: node
   linkType: hard
 
@@ -819,11 +819,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.8":
-  version: 0.6.8
-  resolution: "@goldstack/template-s3-cli@npm:0.6.8"
+"@goldstack/template-s3-cli@npm:0.6.9":
+  version: 0.6.9
+  resolution: "@goldstack/template-s3-cli@npm:0.6.9"
   dependencies:
-    "@goldstack/template-s3": 0.4.7
+    "@goldstack/template-s3": 0.4.8
     "@goldstack/utils-cli": 0.3.4
     "@goldstack/utils-docker": 0.4.4
     "@goldstack/utils-log": 0.3.4
@@ -840,25 +840,25 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 1bdd7079b94612efc91d8f756625fc45a7c5c185038f490b8204d891f22d993567958a4ce0c542734bff465f72326dee092dc46c981fef825801da959b347773
+  checksum: 41d184ab965a9845ab3a409406cc9cc5deade8dac5798d5b1c26f0c7a8a520fccc1d9f547f1df6a034ff239399bca22324556556bbf2b19e643c7ab4fc12367d
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.4.7":
-  version: 0.4.7
-  resolution: "@goldstack/template-s3@npm:0.4.7"
+"@goldstack/template-s3@npm:0.4.8":
+  version: 0.4.8
+  resolution: "@goldstack/template-s3@npm:0.4.8"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/infra-aws": 0.4.7
     "@goldstack/utils-esbuild": 0.5.4
     "@goldstack/utils-package": 0.4.4
-    "@goldstack/utils-package-config-embedded": 0.5.4
+    "@goldstack/utils-package-config-embedded": 0.5.5
     "@goldstack/utils-template": 0.4.4
     "@goldstack/utils-terraform": 0.4.7
     aws-sdk: ^2.1222.0
     mock-aws-s3: ^4.0.2
     source-map-support: ^0.5.21
-  checksum: 1f25fc8b18300ee6b90824dd5470701b4b5f08e4af05319c84111348d97b4ac084e9093a548e3108122dd8df18152e2b5b60e6c7f5f37feace969d573872e81a
+  checksum: 94f90945cc0e7b9146ccbcc9b418170c8570e4b3c41402d78b41ac1d38b069677f2d562c49dc35ffe29243492a55feb608b011eb09f63b0ee526cd1e0a6e0232
   languageName: node
   linkType: hard
 
@@ -1024,14 +1024,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-package-config-embedded@npm:0.5.4":
-  version: 0.5.4
-  resolution: "@goldstack/utils-package-config-embedded@npm:0.5.4"
+"@goldstack/utils-package-config-embedded@npm:0.5.5":
+  version: 0.5.5
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.5.5"
   dependencies:
     "@goldstack/infra": 0.4.4
     "@goldstack/utils-config": 0.4.4
     "@goldstack/utils-package": 0.4.4
-  checksum: ceedc9c9e57b47477f53fe491b412a56781790a4e62eac7d900fb7fb08afc85b7617a6929beaf889050b0cd8acbc75548f2814ee604e249bb67aa379fe88e819
+  checksum: 54ad7f74561e0ce32ed9f1505845ce3281596ab5ee5faa3ec231a1661d21de30e8353e818fa7ef5ebbaeb21be7010e92691f62fd71429ea9d741e759b2ecf3a6
   languageName: node
   linkType: hard
 
@@ -6156,8 +6156,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
-    "@goldstack/template-email-send": 0.4.7
-    "@goldstack/template-email-send-cli": 0.5.7
+    "@goldstack/template-email-send": 0.4.8
+    "@goldstack/template-email-send-cli": 0.5.8
     "@goldstack/utils-git": 0.2.4
     "@goldstack/utils-sh": 0.5.4
     "@types/jest": ^29.0.1
@@ -14418,8 +14418,8 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
-    "@goldstack/template-s3": 0.4.7
-    "@goldstack/template-s3-cli": 0.6.8
+    "@goldstack/template-s3": 0.4.8
+    "@goldstack/template-s3-cli": 0.6.9
     "@types/jest": ^29.0.1
     "@types/node": ^18.7.13
     aws-sdk: ^2.1222.0
