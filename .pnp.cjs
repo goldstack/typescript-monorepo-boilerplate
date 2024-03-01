@@ -7676,7 +7676,7 @@ const RAW_RUNTIME_STATE =
           ["cli-color", "npm:2.0.0"],\
           ["ansi-regex", "npm:2.1.1"],\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["es6-iterator", "npm:2.0.3"],\
           ["memoizee", "npm:0.4.14"],\
           ["timers-ext", "npm:0.1.7"]\
@@ -8285,7 +8285,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/d-npm-1.0.1-64afbbc689-1296e3f92e.zip/node_modules/d/",\
         "packageDependencies": [\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["type", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -9188,13 +9188,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["es5-ext", [\
-      ["npm:0.10.53", {\
-        "packageLocation": "./.yarn/cache/es5-ext-npm-0.10.53-18c0039c41-21d5de0d35.zip/node_modules/es5-ext/",\
+      ["npm:0.10.63", {\
+        "packageLocation": "./.yarn/unplugged/es5-ext-npm-0.10.63-6a78b50e16/node_modules/es5-ext/",\
         "packageDependencies": [\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["es6-iterator", "npm:2.0.3"],\
           ["es6-symbol", "npm:3.1.3"],\
-          ["next-tick", "npm:1.0.0"]\
+          ["esniff", "npm:2.0.1"],\
+          ["next-tick", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9205,7 +9206,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["es6-iterator", "npm:2.0.3"],\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["es6-symbol", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
@@ -9228,7 +9229,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["es6-weak-map", "npm:2.0.3"],\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["es6-iterator", "npm:2.0.3"],\
           ["es6-symbol", "npm:3.1.3"]\
         ],\
@@ -9593,6 +9594,19 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["esniff", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "./.yarn/cache/esniff-npm-2.0.1-26cea8766c-f6a2abd2f8.zip/node_modules/esniff/",\
+        "packageDependencies": [\
+          ["esniff", "npm:2.0.1"],\
+          ["d", "npm:1.0.1"],\
+          ["es5-ext", "npm:0.10.63"],\
+          ["event-emitter", "npm:0.3.5"],\
+          ["type", "npm:2.7.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["espree", [\
       ["npm:9.4.1", {\
         "packageLocation": "./.yarn/cache/espree-npm-9.4.1-b88faf10bc-94435066c4.zip/node_modules/espree/",\
@@ -9688,7 +9702,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["event-emitter", "npm:0.3.5"],\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"]\
+          ["es5-ext", "npm:0.10.63"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -13785,7 +13799,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/lru-queue-npm-0.1.0-8e1c90dde8-55b08ee3a7.zip/node_modules/lru-queue/",\
         "packageDependencies": [\
           ["lru-queue", "npm:0.1.0"],\
-          ["es5-ext", "npm:0.10.53"]\
+          ["es5-ext", "npm:0.10.63"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14051,7 +14065,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["memoizee", "npm:0.4.14"],\
           ["d", "npm:1.0.1"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["es6-weak-map", "npm:2.0.3"],\
           ["event-emitter", "npm:0.3.5"],\
           ["is-promise", "npm:2.2.2"],\
@@ -14629,13 +14643,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["next-tick", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "./.yarn/cache/next-tick-npm-1.0.0-0c0dd4bec1-83fcb3d4f8.zip/node_modules/next-tick/",\
-        "packageDependencies": [\
-          ["next-tick", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.1.0", {\
         "packageLocation": "./.yarn/cache/next-tick-npm-1.1.0-e0eb60d6a4-83b5cf3602.zip/node_modules/next-tick/",\
         "packageDependencies": [\
@@ -18441,7 +18448,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/timers-ext-npm-0.1.7-7edcefbfb5-a8fffe2841.zip/node_modules/timers-ext/",\
         "packageDependencies": [\
           ["timers-ext", "npm:0.1.7"],\
-          ["es5-ext", "npm:0.10.53"],\
+          ["es5-ext", "npm:0.10.63"],\
           ["next-tick", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -18849,6 +18856,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/type-npm-2.1.0-065c3f492a-aa7a6c18b1.zip/node_modules/type/",\
         "packageDependencies": [\
           ["type", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.7.2", {\
+        "packageLocation": "./.yarn/cache/type-npm-2.7.2-626963ea46-602f1b369f.zip/node_modules/type/",\
+        "packageDependencies": [\
+          ["type", "npm:2.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\
