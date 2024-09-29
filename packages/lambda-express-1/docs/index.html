@@ -944,109 +944,111 @@
       </g></svg
   ></span>
 </h3>
-<p>
-  Environment variables are defined in the Terraform source code for this
-  template. Specifically they are defined in the
-  <code class="inline">infra/aws/lambda.tf</code> file in the resource
-  <code class="inline">resource "aws_lambda_function" "main"</code>. By default,
-  there is one environment variable specified that identifies the Goldstack
-  deployment used.
-</p>
-<pre
-  class="language-hcl"
-><code class="language-hcl"> <span class="token keyword">environment</span> <span class="token punctuation">{</span>
+<p></p>
+<div class="markdown-fragment">
+  <p>
+    Environment variables are defined in the Terraform source code for this
+    template. Specifically they are defined in the
+    <code class="inline">infra/aws/lambda.tf</code> file in the resource
+    <code class="inline">resource "aws_lambda_function" "main"</code>. By
+    default, there is one environment variable specified that identifies the
+    Goldstack deployment used.
+  </p>
+  <pre
+    class="language-hcl language-hcl"
+  ><code class="language-hcl"> <span class="token keyword">environment</span> <span class="token punctuation">{</span>
     <span class="token property">variables</span> <span class="token punctuation">=</span> <span class="token punctuation">{</span>
       <span class="token property">GOLDSTACK_DEPLOYMENT</span> <span class="token punctuation">=</span> var.name
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 </code></pre>
-<p>
-  Add your environment variables into the
-  <code class="inline">variables</code> map:
-</p>
-<pre
-  class="language-hcl"
-><code class="language-hcl"> <span class="token keyword">environment</span> <span class="token punctuation">{</span>
+  <p>
+    Add your environment variables into the
+    <code class="inline">variables</code> map:
+  </p>
+  <pre
+    class="language-hcl language-hcl"
+  ><code class="language-hcl"> <span class="token keyword">environment</span> <span class="token punctuation">{</span>
     <span class="token property">variables</span> <span class="token punctuation">=</span> <span class="token punctuation">{</span>
       <span class="token property">GOLDSTACK_DEPLOYMENT</span> <span class="token punctuation">=</span> var.name
       <span class="token property">YOUR_ENV_VAR</span> <span class="token punctuation">=</span> 'your env var value'
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span>
 </code></pre>
-<p>
-  Usually environment variables should have different values depending on which
-  environment the server is deployed to. This can be accomplished using
-  Terraform variables. Change your variable declaration to the following:
-</p>
-<pre
-  class="language-hcl"
-><code class="language-hcl"><span class="token property">YOUR_ENV_VAR</span> <span class="token punctuation">=</span> var.my_env
+  <p>
+    Usually environment variables should have different values depending on
+    which environment the server is deployed to. This can be accomplished using
+    Terraform variables. Change your variable declaration to the following:
+  </p>
+  <pre
+    class="language-hcl language-hcl"
+  ><code class="language-hcl"><span class="token property">YOUR_ENV_VAR</span> <span class="token punctuation">=</span> var.my_env
 </code></pre>
-<p>
-  Then go into the file <code class="inline">infra/aws/variables.tf</code> and
-  add the following definition:
-</p>
-<pre
-  class="language-hcl"
-><code class="language-hcl"><span class="token keyword">variable<span class="token type variable"> "my_env" </span></span><span class="token punctuation">{</span>
+  <p>
+    Then go into the file <code class="inline">infra/aws/variables.tf</code> and
+    add the following definition:
+  </p>
+  <pre
+    class="language-hcl language-hcl"
+  ><code class="language-hcl"><span class="token keyword">variable<span class="token type variable"> "my_env" </span></span><span class="token punctuation">{</span>
   <span class="token property">description</span> <span class="token punctuation">=</span> <span class="token string">"My environment variable"</span>
   <span class="token property">type</span> <span class="token punctuation">=</span> string
 <span class="token punctuation">}</span>
 </code></pre>
-<p>
-  And finally add this variable to all deployment configurations in
-  <code class="inline">goldstack.json</code>:
-</p>
-<pre
-  class="language-json"
-><code class="language-json">      <span class="token property">"configuration"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <p>
+    And finally add this variable to all deployment configurations in
+    <code class="inline">goldstack.json</code>:
+  </p>
+  <pre
+    class="language-json language-json"
+  ><code class="language-json">      <span class="token property">"configuration"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
         <span class="token property">"lambdaName"</span><span class="token operator">:</span> <span class="token string">"my-lambda"</span><span class="token punctuation">,</span>
-        <span class="token property">"apiDomain"</span><span class="token operator">:</span> <span class="token string">"api.mysite.com"</span><span class="token punctuation">,</span>
-        <span class="token property">"hostedZoneDomain"</span><span class="token operator">:</span> <span class="token string">"mysite.com"</span><span class="token punctuation">,</span>
-        <span class="token property">"cors"</span><span class="token operator">:</span> <span class="token string">"https://mysite.com"</span><span class="token punctuation">,</span>
+        ...
         <span class="token property">"myEnv"</span><span class="token operator">:</span> <span class="token string">"Value for deployment"</span>
       <span class="token punctuation">}</span>
 </code></pre>
-<p>
-  Note that the Terraform variable <code class="inline">my_env</code> translates
-  to <code class="inline">myEnv</code> in the JSON definition (Just remove all
-  <code class="inline">_</code> and make the first character after
-  <code class="inline">_</code> uppercase for your variable definitions).
-</p>
-<p>
-  Lastly, to support local development make sure to define the variable
-  correctly in all <code class="inline">scripts</code> in
-  <code class="inline">package.json</code>. Specifically, you may want to define
-  them for <code class="inline">"test"</code>,
-  <code class="inline">"test-ci"</code> and <code class="inline">"watch"</code>.
-</p>
-<pre
-  class="language-json"
-><code class="language-json">    <span class="token property">"test"</span><span class="token operator">:</span> <span class="token string">"MY_ENV=localvalue jest --passWithNoTests --watch --config=jest.config.js"</span><span class="token punctuation">,</span>
+  <p>
+    Note that the Terraform variable
+    <code class="inline">my_env</code> translates to
+    <code class="inline">myEnv</code> in the JSON definition (Just remove all
+    <code class="inline">_</code> and make the first character after
+    <code class="inline">_</code> uppercase for your variable definitions).
+  </p>
+  <p>
+    Lastly, to support local development make sure to define the variable
+    correctly in all <code class="inline">scripts</code> in
+    <code class="inline">package.json</code>. Specifically, you may want to
+    define them for <code class="inline">"test"</code>,
+    <code class="inline">"test-ci"</code> and
+    <code class="inline">"watch"</code>.
+  </p>
+  <pre
+    class="language-json language-json"
+  ><code class="language-json">    <span class="token property">"test"</span><span class="token operator">:</span> <span class="token string">"MY_ENV=localvalue jest --passWithNoTests --watch --config=jest.config.js"</span><span class="token punctuation">,</span>
     <span class="token property">"test-ci"</span><span class="token operator">:</span> <span class="token string">"MY_ENV=localvalue jest --passWithNoTests --config=jest.config.js --detectOpenHandles"</span><span class="token punctuation">,</span>
     <span class="token property">"watch"</span><span class="token operator">:</span> <span class="token string">"PORT=8731 MY_ENV=localvalue nodemon --config nodemon.json --exec 'yarn node dist/src/local.js'"</span>
 </code></pre>
-<p>
-  Note that for credentials and other values that should not be committed to
-  source code, it may be better to store these in AWS Secrets Manager and
-  retrieve them using the AWS SDK based on the
-  <code class="inline">process.env.GOLDSTACK_DEPLOYMENT</code> value provided.
-</p>
-<p>
-  It is also possible to provide the value of Terraform variables through
-  environment variables during build time. For instance, if you have defined the
-  variable <code class="inline">my_env</code>, simply provide the environment
-  variable <code class="inline">MY_ENV</code> when calling
-  <code class="inline">yarn infra</code>.
-</p>
-<pre
-  class="language-bash"
-><code class="language-bash"><span class="token assign-left variable">MY_ENV</span><span class="token operator">=</span>value <span class="token function">yarn</span> infra up prod
+  <p>
+    Note that for credentials and other values that should not be committed to
+    source code, it may be better to store these in AWS Secrets Manager and
+    retrieve them using the AWS SDK based on the
+    <code class="inline">process.env.GOLDSTACK_DEPLOYMENT</code> value provided.
+  </p>
+  <p>
+    It is also possible to provide the value of Terraform variables through
+    environment variables during build time. For instance, if you have defined
+    the variable <code class="inline">my_env</code>, simply provide the
+    environment variable <code class="inline">MY_ENV</code> when calling
+    <code class="inline">yarn infra</code>.
+  </p>
+  <pre
+    class="language-bash language-bash"
+  ><code class="language-bash"><span class="token assign-left variable">MY_ENV</span><span class="token operator">=</span>value <span class="token function">yarn</span> infra up prod
 </code></pre>
-<p>This works very well in combination with secrets for GitHub actions.</p>
-<pre
-  class="language-yaml"
-><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy API
+  <p>This works very well in combination with secrets for GitHub actions.</p>
+  <pre
+    class="language-yaml language-yaml"
+  ><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Deploy API
   <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
     yarn workspace my-api infra up prod</span>
   <span class="token key atrule">env</span><span class="token punctuation">:</span>
@@ -1056,6 +1058,8 @@
     <span class="token key atrule">AWS_SECRET_ACCESS_KEY</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span><span class="token punctuation">{</span>secrets.PROD_AWS_SECRET_ACCESS_KEY<span class="token punctuation">}</span><span class="token punctuation">}</span>
     <span class="token key atrule">AWS_DEFAULT_REGION</span><span class="token punctuation">:</span> us<span class="token punctuation">-</span>west<span class="token punctuation">-</span><span class="token number">2</span>
 </code></pre>
+</div>
+<p></p>
 <h2 class="heading">
   <span id="troubleshooting-and-frequently-asked-questions"></span
   ><a href="#troubleshooting-and-frequently-asked-questions"
