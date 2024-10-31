@@ -2247,11 +2247,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send-cli@npm:0.5.33":
-  version: 0.5.33
-  resolution: "@goldstack/template-email-send-cli@npm:0.5.33"
+"@goldstack/template-email-send-cli@npm:0.5.34":
+  version: 0.5.34
+  resolution: "@goldstack/template-email-send-cli@npm:0.5.34"
   dependencies:
-    "@goldstack/template-email-send": "npm:0.4.33"
+    "@goldstack/template-email-send": "npm:0.4.34"
     "@goldstack/utils-cli": "npm:0.3.10"
     "@goldstack/utils-package": "npm:0.4.12"
     "@goldstack/utils-package-config": "npm:0.4.12"
@@ -2262,13 +2262,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: 5df1ef106e2c081f7e1296d85893541de7a24e83a0ef4cfdb1c06e7928afc5bdd74ed6196e3ec86e7ab76149ac65bea60903dede40135b05aecee9f4e5bda38f
+  checksum: ad8abfcbab15b9b3792bb98c349dfb2bf180210470bb07cfab2353563dbb6e50a9070dfb41c00e57edb16870850ee102057952bf2c88d3f2115bf1ddf5677692
   languageName: node
   linkType: hard
 
-"@goldstack/template-email-send@npm:0.4.33":
-  version: 0.4.33
-  resolution: "@goldstack/template-email-send@npm:0.4.33"
+"@goldstack/template-email-send@npm:0.4.34":
+  version: 0.4.34
+  resolution: "@goldstack/template-email-send@npm:0.4.34"
   dependencies:
     "@aws-sdk/client-ses": "npm:^3.645.0"
     "@aws-sdk/credential-providers": "npm:3.645.0"
@@ -2283,7 +2283,7 @@ __metadata:
     "@goldstack/utils-terraform-aws": "npm:0.4.29"
     aws-sdk-client-mock: "npm:^4.0.1"
     uuid: "npm:^8.3.0"
-  checksum: de8fbacbdf94970688a06c57a663773e7054389eddfda12140273c244bf82bf82d13df025b70cc57e65208fdbee8888b33b4e03b18c56e01b637cd3441f486f6
+  checksum: ed5c978a9812bc15e50ae2aec2e502b677e46317ea781f13a28cad812c1787b8b449a6fa241136b202d16817487444c451c667df87ce9f4c1e6f078ac70c7dde
   languageName: node
   linkType: hard
 
@@ -8056,8 +8056,8 @@ __metadata:
   resolution: "email-send-1@workspace:packages/email-send-1"
   dependencies:
     "@aws-sdk/client-ses": "npm:^3.645.0"
-    "@goldstack/template-email-send": "npm:0.4.33"
-    "@goldstack/template-email-send-cli": "npm:0.5.33"
+    "@goldstack/template-email-send": "npm:0.4.34"
+    "@goldstack/template-email-send-cli": "npm:0.5.34"
     "@goldstack/utils-git": "npm:0.2.9"
     "@goldstack/utils-sh": "npm:0.5.11"
     "@swc/core": "npm:^1.3.74"
