@@ -17,13 +17,13 @@
     "start": "yarn compile && yarn node dist/local.js",
     "template": "yarn template-ts",
     "template-ts": "ts-node --swc scripts/template.ts",
-    "test": "yarn test-ci --watch",
-    "test-ci": "TEST_SERVER_PORT=5030 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --config=jest.config.js --runInBand",
+    "test": "TEST_SERVER_PORT=5030 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --config=jest.config.js --runInBand",
+    "test-watch": "yarn test --watch",
     "watch": "PORT=3030 CORS=http://localhost:3000 GOLDSTACK_DEPLOYMENT=local ts-node-dev --respawn ./src/local.ts"
   },
   "dependencies": {
-    "@goldstack/template-lambda-http-cli": "0.5.44",
-    "@goldstack/utils-esbuild": "0.5.10",
+    "@goldstack/template-lambda-http-cli": "0.5.45",
+    "@goldstack/utils-esbuild": "0.5.11",
     "aws-serverless-express": "^3.3.8",
     "cors": "^2.8.5",
     "express": "4.19.2",
