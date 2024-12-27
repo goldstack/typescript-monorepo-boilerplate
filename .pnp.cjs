@@ -7479,7 +7479,7 @@ const RAW_RUNTIME_STATE =
           ["jest-transform-stub", "npm:2.0.0"],\
           ["next", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:13.5.1"],\
           ["next-compose-plugins", "npm:2.2.1"],\
-          ["node-sass", "npm:8.0.0"],\
+          ["node-sass", "npm:9.0.0"],\
           ["react", "npm:18.2.0"],\
           ["react-bootstrap", "virtual:16ea8aa1a6e3d7e3caad7a728129134ccf425225f70e02114f24bbb7b9874cedac04c00dafd9c218b946bfbd84b030abb0b024f90a0bd869ff619a92b51d4834#npm:2.2.1"],\
           ["react-dom", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:18.2.0"],\
@@ -16267,10 +16267,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-sass", [\
-      ["npm:8.0.0", {\
-        "packageLocation": "./.yarn/unplugged/node-sass-npm-8.0.0-d992352209/node_modules/node-sass/",\
+      ["npm:9.0.0", {\
+        "packageLocation": "./.yarn/unplugged/node-sass-npm-9.0.0-21d7c06baa/node_modules/node-sass/",\
         "packageDependencies": [\
-          ["node-sass", "npm:8.0.0"],\
+          ["node-sass", "npm:9.0.0"],\
           ["async-foreach", "npm:0.1.3"],\
           ["chalk", "npm:4.1.2"],\
           ["cross-spawn", "npm:7.0.3"],\
