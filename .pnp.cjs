@@ -3553,10 +3553,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-nextjs", [\
-      ["npm:0.5.50", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.50-e256553169-ee5b73c583.zip/node_modules/@goldstack/template-nextjs/",\
+      ["npm:0.5.51", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.51-eea70f4ef3-7166b12713.zip/node_modules/@goldstack/template-nextjs/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.50"],\
+          ["@goldstack/template-nextjs", "npm:0.5.51"],\
           ["@goldstack/infra", "npm:0.4.21"],\
           ["@goldstack/infra-aws", "npm:0.4.30"],\
           ["@goldstack/template-static-website-aws", "npm:0.5.44"],\
@@ -7869,7 +7869,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/app-nextjs-1/",\
         "packageDependencies": [\
           ["app-nextjs-1", "workspace:packages/app-nextjs-1"],\
-          ["@goldstack/template-nextjs", "npm:0.5.50"],\
+          ["@goldstack/template-nextjs", "npm:0.5.51"],\
           ["@goldstack/utils-sh", "npm:0.5.20"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.10.1"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.37"],\
@@ -7906,7 +7906,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["app-nextjs-bootstrap-1", "workspace:packages/app-nextjs-bootstrap-1"],\
           ["@babel/runtime", "npm:7.26.0"],\
-          ["@goldstack/template-nextjs", "npm:0.5.50"],\
+          ["@goldstack/template-nextjs", "npm:0.5.51"],\
           ["@goldstack/utils-sh", "npm:0.5.20"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.10.1"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.37"],\
