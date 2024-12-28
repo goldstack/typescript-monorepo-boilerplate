@@ -2983,6 +2983,14 @@ const RAW_RUNTIME_STATE =
           ["regenerator-runtime", "npm:0.13.5"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.26.0", {\
+        "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.26.0-9afa3c4ef6-9f4ea1c1d5.zip/node_modules/@babel/runtime/",\
+        "packageDependencies": [\
+          ["@babel/runtime", "npm:7.26.0"],\
+          ["regenerator-runtime", "npm:0.14.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@babel/runtime-corejs3", [\
@@ -7897,6 +7905,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
         "packageDependencies": [\
           ["app-nextjs-bootstrap-1", "workspace:packages/app-nextjs-bootstrap-1"],\
+          ["@babel/runtime", "npm:7.26.0"],\
           ["@goldstack/template-nextjs", "npm:0.5.50"],\
           ["@goldstack/utils-sh", "npm:0.5.20"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.10.1"],\
@@ -20013,6 +20022,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.5-290ae86e15-69aaed4576.zip/node_modules/regenerator-runtime/",\
         "packageDependencies": [\
           ["regenerator-runtime", "npm:0.13.5"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.14.1", {\
+        "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-5db3161abb.zip/node_modules/regenerator-runtime/",\
+        "packageDependencies": [\
+          ["regenerator-runtime", "npm:0.14.1"]\
         ],\
         "linkType": "HARD"\
       }]\
