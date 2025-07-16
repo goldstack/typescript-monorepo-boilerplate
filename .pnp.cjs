@@ -3649,12 +3649,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-nextjs", [\
-      ["npm:0.5.61", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.61-8b8b37c554-3bfb2ab38a.zip/node_modules/@goldstack/template-nextjs/",\
+      ["npm:0.5.62", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.62-879fb85f46-19b321c0d7.zip/node_modules/@goldstack/template-nextjs/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.24"],\
           ["@goldstack/infra-aws", "npm:0.4.36"],\
-          ["@goldstack/template-nextjs", "npm:0.5.61"],\
+          ["@goldstack/template-nextjs", "npm:0.5.62"],\
           ["@goldstack/template-static-website-aws", "npm:0.5.53"],\
           ["@goldstack/utils-aws-cli", "npm:0.4.37"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.46"],\
@@ -7926,7 +7926,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-1", {\
         "packageLocation": "./packages/app-nextjs-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.61"],\
+          ["@goldstack/template-nextjs", "npm:0.5.62"],\
           ["@goldstack/utils-sh", "npm:0.5.23"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.12.11"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.39"],\
@@ -7962,7 +7962,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-bootstrap-1", {\
         "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.61"],\
+          ["@goldstack/template-nextjs", "npm:0.5.62"],\
           ["@goldstack/utils-sh", "npm:0.5.23"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.12.11"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.39"],\
