@@ -3163,11 +3163,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3-cli@npm:0.6.69":
-  version: 0.6.69
-  resolution: "@goldstack/template-s3-cli@npm:0.6.69"
+"@goldstack/template-s3-cli@npm:0.6.70":
+  version: 0.6.70
+  resolution: "@goldstack/template-s3-cli@npm:0.6.70"
   dependencies:
-    "@goldstack/template-s3": "npm:0.5.48"
+    "@goldstack/template-s3": "npm:0.5.49"
     "@goldstack/utils-cli": "npm:0.3.23"
     "@goldstack/utils-docker": "npm:0.4.30"
     "@goldstack/utils-log": "npm:0.3.25"
@@ -3183,13 +3183,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-s3: ./bin/template
-  checksum: 10/c3e11d6e0863d1c961bce5b6fc8f11f17d7322786139d0dec1ce23a271b8ef99239f7a9828ee817aeb3c6faacd08ccdb6d6bd148d970262da160cfb7fa19d81a
+  checksum: 10/6b0c95e618e9cde56786fb1ceb82f8a1666eeaa3e58531a0815c8c3d2f0dd7398d7c7b0f97c90741dc05a7c9d8f20308034000a9d29f8d682636c0d00ec059b6
   languageName: node
   linkType: hard
 
-"@goldstack/template-s3@npm:0.5.48":
-  version: 0.5.48
-  resolution: "@goldstack/template-s3@npm:0.5.48"
+"@goldstack/template-s3@npm:0.5.49":
+  version: 0.5.49
+  resolution: "@goldstack/template-s3@npm:0.5.49"
   dependencies:
     "@aws-sdk/client-s3": "npm:3.934.0"
     "@aws-sdk/credential-providers": "npm:3.934.0"
@@ -3205,9 +3205,9 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.58"
     "@smithy/smithy-client": "npm:4.9.7"
     "@smithy/types": "npm:4.9.0"
-    mock-aws-s3-v3: "npm:6.0.11"
+    mock-aws-s3-v3: "npm:6.1.1"
     source-map-support: "npm:^0.5.21"
-  checksum: 10/30e5dec1171b23bdcd3285cd71642e53d508004c4fd08c4fb703250b5d47ec00504b09b2aa9b1a99d5a9e4ab4ba796e385c5cde0cc6cd56891c714605d2d7733
+  checksum: 10/77df244f6087a4ea7e9f15217cc836050f1e7d71856803893a802f91a27cdf0c0812a9865d857fc6d1de0c059825e7face15fa7b41729329823e6b15117b2538
   languageName: node
   linkType: hard
 
@@ -13771,16 +13771,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-aws-s3-v3@npm:6.0.11":
-  version: 6.0.11
-  resolution: "mock-aws-s3-v3@npm:6.0.11"
+"mock-aws-s3-v3@npm:6.1.1":
+  version: 6.1.1
+  resolution: "mock-aws-s3-v3@npm:6.1.1"
   dependencies:
     "@aws-sdk/client-s3": "npm:3.934.0"
     "@smithy/types": "npm:4.9.0"
     "@types/sinon": "npm:^17.0.4"
     aws-sdk-client-mock: "npm:^4.1.0"
     mock-aws-s3: "npm:^4.0.2"
-  checksum: 10/7a4bbdc010f9525e9394583ea20d0fc1a34fd1e131fd7e73579ce61135e3e62826b0c432788cd84e9a80fbe1b2708972bb632ee48278c0d1058c594b206855a4
+  checksum: 10/f287446e46e15112ee0f2eb6b9edf24eb1731a01a4b985bfe4e9a6cb1eef818e64cc57472592069d942f126efa3fcbc676600e70686c8fa048c5ff8352caf749
   languageName: node
   linkType: hard
 
@@ -15953,8 +15953,8 @@ __metadata:
   resolution: "s3-1@workspace:packages/s3-1"
   dependencies:
     "@aws-sdk/client-s3": "npm:3.934.0"
-    "@goldstack/template-s3": "npm:0.5.48"
-    "@goldstack/template-s3-cli": "npm:0.6.69"
+    "@goldstack/template-s3": "npm:0.5.49"
+    "@goldstack/template-s3-cli": "npm:0.6.70"
     "@smithy/smithy-client": "npm:4.9.7"
     "@smithy/types": "npm:4.9.0"
     "@swc/core": "npm:^1.12.11"

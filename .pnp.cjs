@@ -3811,8 +3811,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3", [\
-      ["npm:0.5.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.48-f293a54477-30e5dec117.zip/node_modules/@goldstack/template-s3/",\
+      ["npm:0.5.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.49-6923587f60-77df244f60.zip/node_modules/@goldstack/template-s3/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.934.0"],\
           ["@aws-sdk/credential-providers", "npm:3.934.0"],\
@@ -3820,7 +3820,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/types", "npm:3.930.0"],\
           ["@goldstack/infra", "npm:0.4.29"],\
           ["@goldstack/infra-aws", "npm:0.4.45"],\
-          ["@goldstack/template-s3", "npm:0.5.48"],\
+          ["@goldstack/template-s3", "npm:0.5.49"],\
           ["@goldstack/utils-esbuild", "npm:0.5.18"],\
           ["@goldstack/utils-log", "npm:0.3.25"],\
           ["@goldstack/utils-package", "npm:0.4.30"],\
@@ -3829,18 +3829,18 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-terraform", "npm:0.4.58"],\
           ["@smithy/smithy-client", "npm:4.9.7"],\
           ["@smithy/types", "npm:4.9.0"],\
-          ["mock-aws-s3-v3", "npm:6.0.11"],\
+          ["mock-aws-s3-v3", "npm:6.1.1"],\
           ["source-map-support", "npm:0.5.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-s3-cli", [\
-      ["npm:0.6.69", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.69-83177964d1-c3e11d6e08.zip/node_modules/@goldstack/template-s3-cli/",\
+      ["npm:0.6.70", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.70-956306a9a6-6b0c95e618.zip/node_modules/@goldstack/template-s3-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-s3", "npm:0.5.48"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.69"],\
+          ["@goldstack/template-s3", "npm:0.5.49"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.70"],\
           ["@goldstack/utils-cli", "npm:0.3.23"],\
           ["@goldstack/utils-docker", "npm:0.4.30"],\
           ["@goldstack/utils-log", "npm:0.3.25"],\
@@ -15473,15 +15473,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["mock-aws-s3-v3", [\
-      ["npm:6.0.11", {\
-        "packageLocation": "./.yarn/cache/mock-aws-s3-v3-npm-6.0.11-57addff2ff-7a4bbdc010.zip/node_modules/mock-aws-s3-v3/",\
+      ["npm:6.1.1", {\
+        "packageLocation": "./.yarn/cache/mock-aws-s3-v3-npm-6.1.1-7b494c2839-f287446e46.zip/node_modules/mock-aws-s3-v3/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.934.0"],\
           ["@smithy/types", "npm:4.9.0"],\
           ["@types/sinon", "npm:17.0.4"],\
           ["aws-sdk-client-mock", "npm:4.1.0"],\
           ["mock-aws-s3", "npm:4.0.2"],\
-          ["mock-aws-s3-v3", "npm:6.0.11"]\
+          ["mock-aws-s3-v3", "npm:6.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17932,8 +17932,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/s3-1/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.934.0"],\
-          ["@goldstack/template-s3", "npm:0.5.48"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.69"],\
+          ["@goldstack/template-s3", "npm:0.5.49"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.70"],\
           ["@smithy/smithy-client", "npm:4.9.7"],\
           ["@smithy/types", "npm:4.9.0"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.12.11"],\
