@@ -29,8 +29,8 @@
     "gulp-replace": "^1.0.0"
   },
   "devDependencies": {
-    "@goldstack/template-static-website-aws": "0.5.65",
-    "@swc/core": "^1.12.11",
+    "@goldstack/template-static-website-aws": "0.5.66",
+    "@swc/core": "^1.15.3",
     "@swc/jest": "^0.2.39",
     "@types/gulp": "^4.0.17",
     "@types/gulp-changed": "^0.0.39",
@@ -43,6 +43,6 @@
     "reload": "^3.2.0",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }
