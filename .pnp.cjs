@@ -17570,6 +17570,7 @@ const RAW_RUNTIME_STATE =
           ["@types/gulp-replace", "npm:1.1.0"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
+          ["change-file-extension", "npm:0.1.1"],\
           ["concurrently", "npm:7.3.0"],\
           ["gulp", "npm:5.0.1"],\
           ["gulp-changed", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:5.0.4"],\
