@@ -3729,13 +3729,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-nextjs", [\
-      ["npm:0.5.83", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.83-d9c3506b12-895f843256.zip/node_modules/@goldstack/template-nextjs/",\
+      ["npm:0.5.84", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-nextjs-npm-0.5.84-464dd29ffb-e7cc8213f4.zip/node_modules/@goldstack/template-nextjs/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-nextjs", "npm:0.5.83"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.71"],\
+          ["@goldstack/template-nextjs", "npm:0.5.84"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.72"],\
           ["@goldstack/utils-aws-cli", "npm:0.4.53"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.64"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
@@ -3802,12 +3802,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.71", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.71-16c53b3083-153fc8a3c7.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.72", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.72-b3d2a3b977-66445c6aa5.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.71"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.72"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-config", "npm:0.4.34"],\
           ["@goldstack/utils-docs-cli", "npm:0.3.11"],\
@@ -8336,7 +8336,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-1", {\
         "packageLocation": "./packages/app-nextjs-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.83"],\
+          ["@goldstack/template-nextjs", "npm:0.5.84"],\
           ["@goldstack/utils-sh", "npm:0.5.33"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.15.8"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.39"],\
@@ -8373,7 +8373,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/app-nextjs-bootstrap-1", {\
         "packageLocation": "./packages/app-nextjs-bootstrap-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-nextjs", "npm:0.5.83"],\
+          ["@goldstack/template-nextjs", "npm:0.5.84"],\
           ["@goldstack/utils-sh", "npm:0.5.33"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.15.8"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.39"],\
@@ -18610,7 +18610,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/static-website-1", {\
         "packageLocation": "./packages/static-website-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-static-website-aws", "npm:0.5.71"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.72"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.15.8"],\
           ["@swc/jest", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:0.2.39"],\
           ["@types/gulp", "npm:4.0.17"],\
