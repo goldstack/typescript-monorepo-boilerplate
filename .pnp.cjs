@@ -2870,8 +2870,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3", [\
-      ["npm:0.5.81", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.81-16d97bfaf4-85a6203e91.zip/node_modules/@goldstack/template-s3/",\
+      ["npm:0.5.82", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-npm-0.5.82-22ed5247e1-73a20cb034.zip/node_modules/@goldstack/template-s3/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.1004.0"],\
           ["@aws-sdk/credential-providers", "npm:3.1004.0"],\
@@ -2879,7 +2879,7 @@ const RAW_RUNTIME_STATE =
           ["@aws-sdk/types", "npm:3.973.5"],\
           ["@goldstack/infra", "npm:0.4.41"],\
           ["@goldstack/infra-aws", "npm:0.4.67"],\
-          ["@goldstack/template-s3", "npm:0.5.81"],\
+          ["@goldstack/template-s3", "npm:0.5.82"],\
           ["@goldstack/utils-esbuild", "npm:0.5.26"],\
           ["@goldstack/utils-log", "npm:0.3.34"],\
           ["@goldstack/utils-package", "npm:0.4.43"],\
@@ -2895,11 +2895,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-s3-cli", [\
-      ["npm:0.6.104", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.104-ce8b8602eb-bbf3535a30.zip/node_modules/@goldstack/template-s3-cli/",\
+      ["npm:0.6.105", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-s3-cli-npm-0.6.105-5100663a0d-eb573b23d3.zip/node_modules/@goldstack/template-s3-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-s3", "npm:0.5.81"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.104"],\
+          ["@goldstack/template-s3", "npm:0.5.82"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.105"],\
           ["@goldstack/utils-cli", "npm:0.3.32"],\
           ["@goldstack/utils-docker", "npm:0.4.41"],\
           ["@goldstack/utils-log", "npm:0.3.34"],\
@@ -7888,7 +7888,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:2.29.1"],\
           ["lodash", "npm:4.17.23"],\
           ["rxjs", "npm:7.5.6"],\
-          ["shell-quote", "npm:1.7.3"],\
+          ["shell-quote", "npm:1.8.4"],\
           ["spawn-command", "npm:0.0.2"],\
           ["supports-color", "npm:8.1.1"],\
           ["tree-kill", "npm:1.2.2"],\
@@ -14434,8 +14434,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/s3-1/",\
         "packageDependencies": [\
           ["@aws-sdk/client-s3", "npm:3.1004.0"],\
-          ["@goldstack/template-s3", "npm:0.5.81"],\
-          ["@goldstack/template-s3-cli", "npm:0.6.104"],\
+          ["@goldstack/template-s3", "npm:0.5.82"],\
+          ["@goldstack/template-s3-cli", "npm:0.6.105"],\
           ["@smithy/smithy-client", "npm:4.12.3"],\
           ["@smithy/types", "npm:4.13.0"],\
           ["@swc/core", "virtual:38a9c01be80b39b4f17c4ca4e0cc23c6d17bcea1d0e87fba4115b5876b50bb143d206b25630fa6f029b11ca692335872ef631ddf38e13ea9cefbd55a7fdf7bc1#npm:1.15.8"],\
@@ -14789,10 +14789,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["shell-quote", [\
-      ["npm:1.7.3", {\
-        "packageLocation": "./.yarn/cache/shell-quote-npm-1.7.3-76a78a6d77-0ab00c37c8.zip/node_modules/shell-quote/",\
+      ["npm:1.8.4", {\
+        "packageLocation": "./.yarn/cache/shell-quote-npm-1.8.4-13eacaabff-a3e3796385.zip/node_modules/shell-quote/",\
         "packageDependencies": [\
-          ["shell-quote", "npm:1.7.3"]\
+          ["shell-quote", "npm:1.8.4"]\
         ],\
         "linkType": "HARD"\
       }]\
