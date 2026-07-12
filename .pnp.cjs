@@ -11746,7 +11746,7 @@ const RAW_RUNTIME_STATE =
           ["gaze", "npm:1.1.3"],\
           ["http-proxy", "npm:1.18.1"],\
           ["light-server", "npm:2.9.1"],\
-          ["morgan", "npm:1.10.0"],\
+          ["morgan", "npm:1.10.1"],\
           ["opener", "npm:1.5.2"],\
           ["parseurl", "npm:1.3.3"],\
           ["serve-index", "npm:1.9.1"],\
@@ -12351,15 +12351,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["morgan", [\
-      ["npm:1.10.0", {\
-        "packageLocation": "./.yarn/cache/morgan-npm-1.10.0-a0da109b6b-4497ace00d.zip/node_modules/morgan/",\
+      ["npm:1.10.1", {\
+        "packageLocation": "./.yarn/cache/morgan-npm-1.10.1-247862abc0-f6a611bdcb.zip/node_modules/morgan/",\
         "packageDependencies": [\
           ["basic-auth", "npm:2.0.1"],\
           ["debug", "virtual:55a75d6b53eecd7db4cd99f7cd21a62e8acccdc5f5ca6f93b58377ad5035bc5edd0b12c9d7bc7e9b2b35a852dfc912166d29b6102b57b60527bfcee563b1b4f6#npm:2.6.9"],\
           ["depd", "npm:2.0.0"],\
-          ["morgan", "npm:1.10.0"],\
+          ["morgan", "npm:1.10.1"],\
           ["on-finished", "npm:2.3.0"],\
-          ["on-headers", "npm:1.0.2"]\
+          ["on-headers", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12859,10 +12859,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["on-headers", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "./.yarn/cache/on-headers-npm-1.0.2-e7cd3ea25e-870766c163.zip/node_modules/on-headers/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/on-headers-npm-1.1.0-7d18779060-98aa64629f.zip/node_modules/on-headers/",\
         "packageDependencies": [\
-          ["on-headers", "npm:1.0.2"]\
+          ["on-headers", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
