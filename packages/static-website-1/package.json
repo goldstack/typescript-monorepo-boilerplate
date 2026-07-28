@@ -29,7 +29,7 @@
     "gulp-replace": "^1.1.4"
   },
   "devDependencies": {
-    "@goldstack/template-static-website-aws": "0.5.101",
+    "@goldstack/template-static-website-aws": "0.5.102",
     "@swc/core": "^1.15.46",
     "@swc/jest": "^0.2.39",
     "@types/gulp": "^4.0.17",
@@ -38,7 +38,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^25.0.3",
     "concurrently": "^7.3.0",
-    "jest": "^30.2.0",
+    "jest": "^30.4.2",
     "light-server": "^2.9.1",
     "reload": "^3.4.3",
     "rimraf": "^6.1.2",
