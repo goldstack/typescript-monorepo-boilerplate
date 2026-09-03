@@ -70,8 +70,8 @@ __metadata:
   linkType: hard
 
 "@aws-sdk/client-s3@npm:^3.1096.0":
-  version: 3.1124.0
-  resolution: "@aws-sdk/client-s3@npm:3.1124.0"
+  version: 3.1125.0
+  resolution: "@aws-sdk/client-s3@npm:3.1125.0"
   dependencies:
     "@aws-sdk/checksums": "npm:^3.1000.29"
     "@aws-sdk/core": "npm:^3.977.9"
@@ -84,7 +84,7 @@ __metadata:
     "@smithy/node-http-handler": "npm:^4.11.3"
     "@smithy/types": "npm:^4.17.2"
     tslib: "npm:^2.6.2"
-  checksum: 10/c0ef8626fffb9a7e3554764951fc6b0ca1fe10e75e07955da1e9f9da92aa9bb69fa3fd7e0f82e659f2d123d79ad1e6ae0828adb8bdbdeb15ec897b2207342110
+  checksum: 10/d3005bdf47ed4a5327cb61a005586c4f4ac9f6a10ba614183ecdf9963c97398e7aa37773488252084aff07db725b19c968209c471a6284867b805f10204a057f
   languageName: node
   linkType: hard
 
@@ -10865,12 +10865,12 @@ __metadata:
   linkType: hard
 
 "postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4":
-  version: 6.0.10
-  resolution: "postcss-selector-parser@npm:6.0.10"
+  version: 6.1.4
+  resolution: "postcss-selector-parser@npm:6.1.4"
   dependencies:
     cssesc: "npm:^3.0.0"
     util-deprecate: "npm:^1.0.2"
-  checksum: 10/f8ad9beb764a64b51a8027650e745a44ed7198f0b968b823db9563a54990924bcf9eb6fb59fbbb7eb05a89b2b6a24b81b2b7d60ecadda15b04a0024c7663f436
+  checksum: 10/68d122d44ea248f570252a08f4967758168b110a7a5349b1d5605d2a10b2ca4bbb257e36b0925053abf35b406955e730febe5a4aa3cf6997ce222d46ec0ab840
   languageName: node
   linkType: hard
 
